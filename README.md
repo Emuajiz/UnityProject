@@ -7,10 +7,13 @@ Anggota Kelompok :
 3. M Thareeq Izzulhaq	      G64180041
 
 ## Game Description
+
 Nama Game : Nuvo Legacy
-Genre : Arcade endless
+
+Genre   : Arcade endless
 
 Goals	: Membunuh virus untuk mendapat score sebanyak-banyaknya. 
+
 Rules	: 
 1. Player memakan virus dengan jumlah batasan maksimal yang sudah ditetapkan
 2. Jika hitpoint menyentuh angka 0 maka player akan mati
@@ -20,8 +23,7 @@ Rules	:
 6. Memakan vaksin menambah hitpoint
 7. Ada dinding yang membatasi pergerakan player
 
-Story :
-Virus yang semakin berkembang dan menyebar luas mengharuskan Nuvo untuk membasmi virus-virus yang ada dengan memakannya. Tetapi nuvo memiliki batas maksimum untuk memakan virus ini, jika melebihi batas tersebut Nuvo akan terjangkit virus dan mati. Oleh karena itu, Nuvo memerlukan vaksin/antivirus untuk menghilangkan virus yang sudah dimakan dan menambah kapasitas virus dan hitpoint yang bisa dimakan lagi. Ketika Nuvo menggunakan vaksin maka akan mendorong virus di dalam radius 5 cm sejauh 3 cm. Nuvo harus bisa memakan virus sebanyak mungkin untuk mendapatkan score lebih tinggi dan berusaha agar tidak mati. Game akan selesai dan kembali ke halaman main menu jika player mati. Tetapi score tertinggi akan disimpan dan ditampilkan pada highscore.
+    Virus yang semakin berkembang dan menyebar luas mengharuskan Nuvo untuk membasmi virus-virus yang ada dengan memakannya. Tetapi nuvo memiliki batas maksimum untuk memakan virus ini, jika melebihi batas tersebut Nuvo akan terjangkit virus dan mati. Oleh karena itu, Nuvo memerlukan vaksin/antivirus untuk menghilangkan virus yang sudah dimakan dan menambah kapasitas virus dan hitpoint yang bisa dimakan lagi. Ketika Nuvo menggunakan vaksin maka akan mendorong virus di dalam radius 5 cm sejauh 3 cm. Nuvo harus bisa memakan virus sebanyak mungkin untuk mendapatkan score lebih tinggi dan berusaha agar tidak mati. Game akan selesai dan kembali ke halaman main menu jika player mati. Tetapi score tertinggi akan disimpan dan ditampilkan pada highscore.
 
 ## Game Documentation
 
