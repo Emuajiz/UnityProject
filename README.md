@@ -58,7 +58,7 @@ Goals	: Membunuh virus untuk mendapat score sebanyak-banyaknya.
     </tr>
     <tr>
         <td>Figma<td>
-        <td>Membuat asset game<td>
+        <td>Membuat asset game</td>
     </tr>
 </table>
 
