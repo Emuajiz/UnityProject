@@ -57,7 +57,7 @@ Goals	: Membunuh virus untuk mendapat score sebanyak-banyaknya.
         <td>Menulis script game menggunakan bahasa C#</td>
     </tr>
     <tr>
-        <td>Figma<td>
+        <td>Figma</td>
         <td>Membuat asset game</td>
     </tr>
 </table>
