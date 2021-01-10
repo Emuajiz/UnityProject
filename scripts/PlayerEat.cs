@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,8 +21,22 @@ public class PlayerEat : MonoBehaviour
         if (obs.tag == "musuh")
         {
             ObsSpawn.enemySpawned--;
-            score = score + 1;
+            score = score + 5;
+            hp -= 5;
+            Destroy(collision.gameObject);
+        }
+        else if (obs.tag == "musuh1") 
+        {
+            ObsSpawn.enemySpawned--;
+            score = score + 10;
             hp -= 10;
+            Destroy(collision.gameObject);
+        }
+        else if (obs.tag == "musuh2")
+        {
+            ObsSpawn.enemySpawned--;
+            score = score + 20;
+            hp -= 40;
             Destroy(collision.gameObject);
         }
         else if (obs.name == "Health(Clone)")
