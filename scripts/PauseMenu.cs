@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -68,6 +68,7 @@ public class PauseMenu : MonoBehaviour
         GameIsOver = false;
         Time.timeScale = 1f;
         PlayerEat.hp = 100;
+        PlayerEat.score = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
