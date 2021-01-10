@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,7 +21,7 @@ public class ObsSpawn : MonoBehaviour
     public static int enemySpawned = 0;
     public int maxEnemySpawned = 10;
     public static int healthSpawned = 0;
-    public int maxHealthSpawned = 5;
+    public int maxHealthSpawned = 2;
 
     void Start() {
         PlayerTransform = GameObject.FindWithTag("Player").transform;
@@ -30,7 +30,7 @@ public class ObsSpawn : MonoBehaviour
     void Update()
     {
         // Debug.Log(enemySpawned);
-        if (countdown <= 0.0f)
+        if (countdown <= 1.0f)
         {
             if (enemySpawned < maxEnemySpawned)
                 EnemySpawn();
@@ -82,11 +82,11 @@ public class ObsSpawn : MonoBehaviour
         // whereToSpawn = spawnPosRandom;
         // spawnPosRandom(whereToSpawn);
         int random = (int)Random.Range(0, 10);
-        if (random == 9)
+        if (random == 6)
         {
             Instantiate(enemyPrefab2, whereToSpawn, Quaternion.identity);
         }
-        else if (random > 6)
+        else if (random > 2)
         {
             Instantiate(enemyPrefab3, whereToSpawn, Quaternion.identity);
         }
