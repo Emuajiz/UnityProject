@@ -65,3 +65,10 @@ Goals	: Membunuh virus untuk mendapat score sebanyak-banyaknya.
 
 ## Game Documentation
 
+![Main Menu](https://user-images.githubusercontent.com/44494446/104114617-fba37680-5338-11eb-8805-004f43250977.png)
+
+![inGame](https://user-images.githubusercontent.com/44494446/104114616-fa724980-5338-11eb-9390-bd0f84e408f7.png)
+
+![Setting](https://user-images.githubusercontent.com/44494446/104114619-fe05d080-5338-11eb-834a-ed1cf57f0d11.png)
+
+![credit](https://user-images.githubusercontent.com/44494446/104114615-f7775900-5338-11eb-89bd-19dc6526c9b4.png)
