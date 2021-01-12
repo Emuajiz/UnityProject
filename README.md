@@ -35,7 +35,9 @@ Goals	: Membunuh virus untuk mendapat score sebanyak-banyaknya.
     <li>Jika hitpoint menyentuh angka 0 maka player akan mati</li>
     <li>Player akan mendapatkan antivirus dalam jumlah tertentu </li>
     <li>Player bisa menggerakkan char(nuvo) kemanapun di dalam map dengan menggunakan arrow</li>
-    <li>Memakan virus menambah score</li>
+    <li>Memakan virus merah menambah score 20 poin, namun health akan berkurang sebanyak 20</li>
+    <li>Memakan virus cokelat menambah score 15 poin, namun health akan berkurang sebanyak 15</li>
+    <li>Memakan virus ungu menambah score 5 poin, namun health akan berkurang sebanyak 5</li>
     <li>Memakan vaksin menambah health</li>
     <li>Ada dinding yang membatasi pergerakan player</li>
 </ul>
